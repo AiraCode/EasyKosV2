@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 140" width="100%" height="100%">
+  <defs>
+    <!-- Teal Gradient for House & 'Easy' -->
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    
+    <!-- Orange Gradient for Squirrel & 'Kos' -->
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#C84628"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10, 10)">
+    <!-- House Frame -->
+    <path d="M 60 10 L 115 50 L 115 110 L 5 110 L 5 50 Z" fill="none" stroke="url(#tealGrad)" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- Squirrel Tail -->
+    <path d="M 25 80 C 5 70 -5 45 15 30 C 35 15 45 40 35 65 Z" fill="url(#orangeGrad)"/>
+
+    <!-- Squirrel Body & Head -->
+    <ellipse cx="60" cy="70" rx="30" ry="32" fill="url(#orangeGrad)"/>
+    <ellipse cx="60" cy="74" rx="18" ry="20" fill="#FFF5F2"/> <!-- White Tummy -->
+
+    <!-- Ears -->
+    <polygon points="42,42 34,22 52,35" fill="url(#orangeGrad)"/>
+    <polygon points="44,40 37,25 50,35" fill="#334155"/>
+    <polygon points="78,42 86,22 68,35" fill="url(#orangeGrad)"/>
+    <polygon points="76,40 83,25 70,35" fill="#334155"/>
+
+    <!-- Face Muzzle (White) -->
+    <ellipse cx="60" cy="56" rx="22" ry="14" fill="#FFFFFF"/>
+
+    <!-- Eyes (Happy arcs) -->
+    <path d="M 47 50 Q 52 44 57 50" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 63 50 Q 68 44 73 50" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Nose & Tooth -->
+    <ellipse cx="60" cy="54" rx="4" ry="3" fill="#1E293B"/>
+    <path d="M 58 58 L 58 64 L 62 64 L 62 58 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+
+    <!-- Thumbs Up Hand -->
+    <path d="M 85 70 C 95 70 100 60 98 52 C 96 46 90 48 88 54 L 82 62 Z" fill="url(#orangeGrad)"/>
+    <circle cx="95" cy="50" r="4" fill="url(#orangeGrad)"/>
+  </g>
+
+  <!-- EasyKos Text -->
+  <text x="145" y="85" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="64" font-weight="800" letter-spacing="-1">
+    <tspan fill="url(#tealGrad)">Easy</tspan><tspan fill="url(#orangeGrad)">Kos</tspan>
+  </text>
+</svg>

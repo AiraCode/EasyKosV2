@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#C84628"/>
+    </linearGradient>
+  </defs>
+
+  <!-- House Frame -->
+  <path d="M 100 15 L 180 75 L 180 175 L 20 175 L 20 75 Z" fill="none" stroke="url(#tealGrad)" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Zzz Bubble -->
+  <g transform="translate(145, 30)">
+    <text font-family="'Outfit', sans-serif" font-weight="800" font-size="20" fill="#94A3B8">Z</text>
+    <text font-family="'Outfit', sans-serif" font-weight="800" font-size="14" x="14" y="-8" fill="#CBD5E1">z</text>
+    <text font-family="'Outfit', sans-serif" font-weight="800" font-size="10" x="24" y="-14" fill="#E2E8F0">z</text>
+  </g>
+
+  <!-- Squirrel Tail Drooping -->
+  <path d="M 45 130 C 10 120 -15 85 15 65 C 45 45 65 80 50 115 Z" fill="url(#orangeGrad)"/>
+
+  <!-- Body & White Tummy -->
+  <ellipse cx="100" cy="122" rx="48" ry="48" fill="url(#orangeGrad)"/>
+  <ellipse cx="100" cy="130" rx="28" ry="30" fill="#F8FAFC"/>
+
+  <!-- Ears Drooping -->
+  <polygon points="70,80 52,55 82,72" fill="url(#orangeGrad)"/>
+  <polygon points="72,78 57,60 80,72" fill="#334155"/>
+  <polygon points="130,80 148,55 118,72" fill="url(#orangeGrad)"/>
+  <polygon points="128,78 143,60 120,72" fill="#334155"/>
+
+  <!-- White Muzzle -->
+  <ellipse cx="100" cy="100" rx="35" ry="22" fill="#FFFFFF"/>
+
+  <!-- Droopy Eyebrows & Sleepy Eyes -->
+  <path d="M 72 82 Q 84 88 92 84" fill="none" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 128 82 Q 116 88 108 84" fill="none" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M 76 90 Q 84 96 92 90" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 108 90 Q 116 96 124 90" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Sad Nose & Mouth -->
+  <ellipse cx="100" cy="98" rx="6" ry="4" fill="#1E293B"/>
+  <path d="M 94 108 Q 100 102 106 108" fill="none" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Squirrel Holding Pillow (Matching Image 4) -->
+  <g transform="translate(80, 125) rotate(-10)">
+    <rect x="0" y="0" width="55" height="38" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="3"/>
+    <path d="M 5 5 L 12 12 M 50 5 L 43 12 M 5 33 L 12 26 M 50 33 L 43 26" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Paws holding pillow -->
+  <circle cx="82" cy="135" r="9" fill="url(#orangeGrad)"/>
+  <circle cx="125" cy="138" r="9" fill="url(#orangeGrad)"/>
+</svg>
